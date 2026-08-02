@@ -1,7 +1,23 @@
 aid: twice
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/twice.png
 name: Twice
-description: Twice is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Twice was an online marketplace for buying and selling secondhand clothing
+  that operated at liketwice.com, and it appears on the Andreessen Horowitz (a16z)
+  investment list. eBay acquired the Twice team in 2015 and the marketplace was shut
+  down; liketwice.com now serves an HTTP 301 redirect to ebay.com (verified 2026-07-21)
+  and no longer answers HTTPS. The company is catalogued in the API Evangelist network
+  as a defunct a16z portfolio lead with no public API surface.
 url: https://raw.githubusercontent.com/api-evangelist/twice/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,12 +25,29 @@ x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-acquired-by: eBay (2015, team acqui-hire; liketwice.com redirects to ebay.com)
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Commerce
+- Marketplace
+- Fashion
+- Resale
+- Secondhand
+- Defunct
 apis: []
+common:
+- name: Website (historical)
+  type: Website
+  url: http://liketwice.com
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
