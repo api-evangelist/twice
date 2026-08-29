@@ -30,6 +30,9 @@ description: Twice was an online marketplace for buying and selling secondhand c
   and no longer answers HTTPS. The company is catalogued in the API Evangelist network
   as a defunct a16z portfolio lead with no public API surface.
 url: https://raw.githubusercontent.com/api-evangelist/twice/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "The company is catalogued in the API Evangelist network as a defunct a16z portfolio lead with no public API surface."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
